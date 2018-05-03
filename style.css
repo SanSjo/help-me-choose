@@ -4,6 +4,8 @@ body {
 	justify-content: center;
 	align-items: center;
 	margin-top: 150px;
+	background-color: #F8B595;
+	
 }
 
 h1{
@@ -11,6 +13,11 @@ h1{
 	font-size: 40px;
 	letter-spacing: 2px;
 	margin: 0;
+	color: #6C5B7C;
+
+}
+input {
+	margin-top: 10px;
 }
 
 .inputSection {
@@ -25,13 +32,17 @@ h1{
 }
 
 input {
+.addOption {
 	margin-top: 10px;
+	background-color: #6C5B7C;
 }
 
 .addOption {
 	margin-top: 10px;
 .pink {
 	background-color: pink;
+}
+
 .resultSection {
 	height: 300px;
 	display: flex;
