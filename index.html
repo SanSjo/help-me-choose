@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Hanzon&Sjöberg</title>
+		<title>Help me Choose</title>
 		<link href="./style.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
@@ -33,9 +34,16 @@
 					$('.inputSection').hide()
 					$('.resultSection').css('display', 'flex')
 					$('input').each(function() {
+					
+						if(($(this).val()) !== '') {
 						options.push($(this).val()) 
 
 					})
+						console.log(options)
+					}
+						
+				    })
+				
 					var winner = options[Math.floor(Math.random() * options.length)] 
 					console.log(winner)
 					$('.resultSection').text("The winner is: "+winner)
